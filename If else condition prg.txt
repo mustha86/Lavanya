@@ -1,0 +1,27 @@
+ 1.if else condition
+
+#include<stdio.h>
+
+int main(){
+    int a;
+    printf("enter the number of marks:");
+    scanf("%d",&a);
+    if((a>=75) && (a<=100)){
+        printf("Distinction");
+    }
+    else if((a>65) && (a<75)){
+        printf("First class");
+    }
+    else if((a>50) && (a<65)){
+        printf("second class");
+    }
+    else if((a>40) && (a<50)){
+        printf("Third class");
+    }else if((a>35) && (a<40)){
+        printf("pass");
+    }
+    else{
+        printf("Fail");
+    }
+}
+s
