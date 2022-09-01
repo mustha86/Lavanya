@@ -1,0 +1,15 @@
+1* WAP to input data function using scanf & Display varies format specifiers using printf?
+
+#include<stdio.h>
+#define temperature 10.00
+int num;
+int main()
+{
+    num=35;
+    char ch;
+    const int b=15;
+    printf("enter the charecter:\n");
+    scanf("%c",&ch);
+    printf("the value are integer no is %d\n charecter is %c\n constant value is %d\n temperature=%f",num,ch,b,temperature);
+    return 0;
+} 

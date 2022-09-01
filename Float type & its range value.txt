@@ -1,0 +1,9 @@
+Float type & its range value?
+
+#include<stdio.h>
+int main()
+{
+    float floatvalue;
+    printf("storage space taken by floatvalue=%zu",sizeof(floatvalue));
+    return 0;
+}
