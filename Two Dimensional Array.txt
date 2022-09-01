@@ -1,0 +1,29 @@
+Two Dimensional Array :
+_____________________
+
+#include<stdio.h>
+int main()
+{
+    int a[2][2]; //2 dimensional array syntax
+    int r,cl;
+    puts("Enter the ROW Numbers:");
+    scanf("%d",&r);
+    puts("Enter the column Numbers:");
+    scanf("%d",&cl);
+    for(int i=0;i<r;i++)
+    {
+        for(int k=0;k<cl;k++)
+        {
+            scanf("%d",&a[i][k]);
+        }
+    }
+    for(int i=0;i<r;i++)
+    {
+        puts("\n");
+        for(int k=0;k<cl;k++)
+        {
+            printf("%d \t",a[i][k]);
+        }
+    }
+        }
+    

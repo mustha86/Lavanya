@@ -1,0 +1,35 @@
+
+
+1: Write a program to read the elements and to print the elements of an array using one dimensional array ?
+
+#include <stdio.h>
+int main()
+{
+    int a[1000],i,n;  //Read the size of an array and store that value into the variable n.  
+ 
+     printf("Enter size of array: ");
+    scanf("%d",&n);
+ 
+     printf("Enter %d elements in the array :\n ", n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d", &a[i]); //scanf(“%d”,&a[i]) using for loop for(i=0;i<n;i++).
+    }
+ 
+    printf("\nElements in array are: ");
+    for(i=0;i<n;i++)
+ 
+    {
+        printf("%d  ", a[i]);
+    }
+ 
+    return 0;
+}
+
+// Scanf() function reads the entered element and initialize that element to a[i] until all iterations of for loop as 
+
+// Print the array elements of a[] using for loop which iterates i=0 to i<size of an array.
+
+//printf(“%d”,a[i]),it prints the elements of an array from i=0 to i<n using for loop.
+
+   
