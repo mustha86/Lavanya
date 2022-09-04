@@ -1,0 +1,50 @@
+If 1 pass it should return if 2 pass to it should playing if 3 o it should return stop
+if 4 pass to it should playing song if 5 pass no of songs in music?
+
+#include<stdio.h>  
+void play();
+void stop();
+void pause();
+void current_playing();
+void list();
+void main()
+{
+    int key;
+    printf("enter a key 1-play,2-stop,3-pause,4-current play,5-list");
+    scanf("%d",&key);
+   switch(key)
+   {
+       case 1:play();
+       break;
+       case 2:stop();
+       break;
+       case 3:pause();
+       break;
+       case 4:current_playing();
+       break;
+       case 5:list();
+       break;
+       default:printf("invalid choice");
+   }
+   return 0;
+}
+    void play()
+   {
+     printf("play the song");
+   }
+    void stop()
+    {
+    printf("stop the song");
+    }
+    void pause()
+    {
+    printf("pause");
+    }
+    void current_playing()
+    {
+        printf("current song playing");
+    }
+    void list()
+    {
+        printf("the list");
+    }

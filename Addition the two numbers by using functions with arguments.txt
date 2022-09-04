@@ -1,0 +1,20 @@
+WAP Addition the two numbers by using functions with arguments with return type:
+
+#include<stdio.h>  
+int sum(int x, int y);//function with Argument
+int main()
+{
+    int x,y,z;//Declaring the varaible
+    printf("Enter the values");
+    scanf("%d %d",&x, &y);//Read the values
+    z=sum(x,y);//Assigning the value return from the function to the varaible
+    printf("%d",z);//print sum return value
+}
+
+
+
+   int sum(int a,int b)//Declaration with parameter
+    {
+    return (a+b);//Return Sum
+    }
+    
